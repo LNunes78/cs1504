@@ -9,7 +9,7 @@ elif sys.platform == 'linux2':
   serial_port = '/dev/ttyUSB0'
 elif sys.platform == 'win32':
   # this port varies from PC to PC
-  serial_port = 'COM8'
+  serial_port = 'COM10'
 else:
   serial_port = 0
 
